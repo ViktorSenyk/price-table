@@ -11,14 +11,104 @@
   height: 770px;
   background-color: $base-background;
   text-align: center;
+  margin-right: 18px;
+  position: relative;
+  overflow: hidden;
+  &:last-child {
+    margin-right: 0;
+  }
   &__title {
-    width: 100px;
-    margin: 33px auto;
-    font-size: 20px;
-    font-weight: 300;
-    &::first-line {
-      font-size: 25px;
-      font-weight: 700;
+    display: flex;
+    height: 130px;
+    & > h3 {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 24.38px;
+      margin: auto;
+      &::first-line {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 42.67px;
+      }
     }
+  }
+  &__price {
+    height: 105px;
+    background-color: rgba(91, 177, 137, 1);
+    display: flex;
+    & > p {
+      font-size: 55px;
+      font-weight: 700;
+      margin: auto;
+    }
+  }
+  &__description {
+    width: 327px;
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+  }
+  &__options-list {
+    text-align: start;
+    margin-bottom: 39px;
+    & > li {
+      display: block;
+      height: 50px;
+      font-size: 15px;
+      line-height: 18px;
+      padding-left: 59px;
+      line-height: 50px;
+      position: relative;
+      cursor: pointer;
+      &:hover {
+        filter: brightness(1.4);
+      }
+      &:nth-child(odd) {
+        background-color: $second-background;
+      }
+      &::before {
+        content: '';
+        width: 15px;
+        height: 13px;
+        background: url(../images/shape-green.svg) center no-repeat;
+        position: absolute;
+        left: 22px;
+        top: 19px;
+      }
+    }
+  }
+  &:nth-child(2) li::before {
+    background: url(../images/shape-blue.svg) center no-repeat;
+  }
+  &:nth-child(3) li::before {
+    background: url(../images/shape-orange.svg) center no-repeat;
+  }
+  &__order-btn {
+    width: 154px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(91, 177, 137, 1);
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    &:hover {
+      filter: brightness(1.4);
+    }
+  }
+  &__promotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 147px;
+    height: 25px;
+    background-color: rgba(220, 63, 69, 1);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 31px;
+    right: -30px;
+    font-size: 14px;
+    font-weight: 700;
   }
 }
