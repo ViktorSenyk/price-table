@@ -96,16 +96,16 @@ body {
   content: "";
   width: 15px;
   height: 13px;
-  background: url(../images/shape-green.png) center no-repeat;
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png) center no-repeat;
   position: absolute;
   left: 22px;
   top: 19px;
 }
 .price-card:nth-child(2) li::before {
-  background: url(../images/shape-blue.png) center no-repeat;
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png) center no-repeat;
 }
 .price-card:nth-child(3) li::before {
-  background: url(../images/shape-orange.png) center no-repeat;
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png) center no-repeat;
 }
 .price-card__order-btn {
   width: 154px;
