@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.price-cards {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: rgb(51, 66, 71);
+  text-align: center;
+}
+.price-card__title {
+  width: 100px;
+  margin: 33px auto;
+  font-size: 20px;
+  font-weight: 300;
+}
+.price-card__title::first-line {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=styles.css.map */
