@@ -35,6 +35,7 @@ body {
   margin-right: 18px;
   position: relative;
   overflow: hidden;
+  padding-top: 3px;
 }
 .price-card:last-child {
   margin-right: 0;
@@ -95,16 +96,16 @@ body {
   content: "";
   width: 15px;
   height: 13px;
-  background: url(../images/shape-green.svg) center no-repeat;
+  background: url(../images/shape-green.png) center no-repeat;
   position: absolute;
   left: 22px;
   top: 19px;
 }
 .price-card:nth-child(2) li::before {
-  background: url(../images/shape-blue.svg) center no-repeat;
+  background: url(../images/shape-blue.png) center no-repeat;
 }
 .price-card:nth-child(3) li::before {
-  background: url(../images/shape-orange.svg) center no-repeat;
+  background: url(../images/shape-orange.png) center no-repeat;
 }
 .price-card__order-btn {
   width: 154px;
