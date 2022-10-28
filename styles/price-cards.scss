@@ -58,20 +58,20 @@
   &__options-list {
     text-align: start;
     margin-bottom: 39px;
-    & > li {
-      position: relative;
-      display: block;
-      height: 50px;
-      font-size: 15px;
-      line-height: 50px;
-      padding-left: 59px;
-      cursor: pointer;
-      &:hover {
-        filter: brightness(1.4);
-      }
-      &:nth-child(odd) {
-        background-color: $second-background;
-      }
+  }
+  &__list-item {
+    position: relative;
+    display: block;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+    padding-left: 59px;
+    cursor: pointer;
+    &:hover {
+      filter: brightness(1.4);
+    }
+    &:nth-child(odd) {
+      background-color: $second-background;
     }
   }
   &__icon {
