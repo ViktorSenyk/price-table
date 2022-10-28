@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Price cards
 
 ### [Site link](https://viktorsenyk.github.io/price-table/)
 
