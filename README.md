@@ -2,6 +2,7 @@
 
 ### [Site link](https://viktorsenyk.github.io/price-table/)
 
+Layout support desktop (up-to-1440) version
 
 ### The tech stack is:
 

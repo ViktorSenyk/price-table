@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import 'variables';
+@import 'price-cards';
 
 * {
   box-sizing: border-box;
@@ -13,5 +15,4 @@ body {
   min-height: 100vh;
   background-color: #141b1c;
 }
-@import 'variables';
-@import 'price-cards';
+
