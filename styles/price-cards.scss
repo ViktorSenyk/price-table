@@ -1,5 +1,6 @@
 .price-cards {
   display: flex;
+  gap: 18px;
   margin: auto;
 }
 
@@ -11,19 +12,15 @@
   overflow: hidden;
   background-color: $base-background;
   padding-top: 34.5px;
-  
-  &_extra-margin {
-    margin-right: 18px;
-  }
 
-  &__firstTitle {
+  &__title {
     font-size: 35px;
     font-weight: 700;
     line-height: 42.67px;
     margin: 0 7px 0 0;
   }
 
-  &__secondTitle {
+  &__subtitle {
     font-size: 20px;
     font-weight: 300;
     line-height: 17px;
@@ -39,15 +36,15 @@
     margin-top: 35px;
 
     &_green {
-      background-color: rgba(91, 177, 137, 1);
+      background-color: $green-color-mod;
     }
 
     &_blue {
-      background-color: rgba(58, 107, 165, 1);
+      background-color: $blue-color-mod;
     }
 
     &_orange {
-      background-color: rgba(236, 99, 42, 1);
+      background-color: $orange-color-mod;
     }
   }
 
@@ -113,16 +110,20 @@
     border-radius: 20px;
     font-size: 14px;
     font-weight: 400;
-    background-color: rgba(91, 177, 137, 1);
+    background-color: $green-color-mod;
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
 
+    &_green {
+      background-color: $green-color-mod;
+    }
+
     &_blue {
-      background-color: rgba(58, 107, 165, 1);
+      background-color: $blue-color-mod;
     }
 
     &_orange {
-      background-color: rgba(236, 99, 42, 1);
+      background-color: $orange-color-mod;
     }
 
     &:hover {
